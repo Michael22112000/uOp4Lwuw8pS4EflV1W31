@@ -13,7 +13,7 @@ client.on("ready", async () => {
     console.log(`Logged in as ${client.user.tag}!`);
 
     setInterval(function() {
-        client.user.setActivity('you ♥', { type: 'STRREAMING', url: "https://www.twitch.tv/xanax"});
+        client.user.setActivity('you ♥', { type: 'STREAMING', url: "https://www.twitch.tv/xanax"});
     //Update every 30 seconds
     }, 30 * 1000);
 
