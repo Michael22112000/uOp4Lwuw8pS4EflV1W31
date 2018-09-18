@@ -6,6 +6,6 @@
   "author": "Donald Trump",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.2.1"
+    "discord.js": "^11.1.0"
   }
 }
