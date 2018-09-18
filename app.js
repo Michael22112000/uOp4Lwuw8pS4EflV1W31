@@ -55,7 +55,7 @@ client.on("ready", async () => {
             
             //try to change the role
             try{
-                guild.roles.find("name", client.colors[i].role).setColor(hslToRgb(rainbow, 1, 0.5))
+                guild.roles.find(role => role.name === client.colors[i].role).setColor(hslToRgb(rainbow, 1, 0.5))
                 .catch(err => { 
                     delete client.colors[i]
                     fs.writeFile("./servers.json", JSON.stringify(client.colors, null, 4), err => {
