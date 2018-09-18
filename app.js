@@ -23,7 +23,7 @@ client.on("ready", async () => {
     console.log(`Logged in as ${client.user.tag}!`);
 
     setInterval(function() {
-        client.user.setPresence({ game: { name: "c!help | " + client.guilds.size + " Servers! | https://discord.gg/QYGMzmN", url: "https://discord.gg/QYGMzmN", type: 1 } });
+        client.user.setActivity('you ♥', { type: 'WATCHING' });
     //Update every 30 seconds
     }, 30 * 1000);
 
