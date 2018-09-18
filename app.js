@@ -1,14 +1,4 @@
-/*
-Welcome to the pits of hell with this shitty code
-Don't start whining cause the code is bad, this is
-the best of the best shit code, if you want it to
-be better, make it better yourself, was fun making
-the bot while it lasted, im pretty sure there's a
-memory leak in the server shit, but idc honestly.
 
-
-    -ItzNop
-*/
 
 const Discord = require("discord.js");
 const client = new Discord.Client();
