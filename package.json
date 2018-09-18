@@ -1,9 +1,9 @@
 {
-  "name": "spambot",
+  "name": "Rainbow Bot",
   "version": "1.0.0",
-  "description": "Discord spambot to level up profiles on other bots",
+  "description": "literally lgbt bot",
   "main": "app.js",
-  "author": "Aaron Meese",
+  "author": "Donald Trump",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^11.2.1"
