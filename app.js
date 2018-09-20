@@ -93,18 +93,17 @@ client.on("message", async message =>{
         const embed = new Discord.RichEmbed()
         .setTitle(":tools: Help")
         .setColor(0x009688)
-        .setDescription("Shows commands for the bot!")
+        .setDescription("cmd list")
         .addField(":bulb: General commands", 
-        "**`c!rainbow`** - Taste the rainbow!\n" + 
-        "**`c!ping`** - Why is the bot slow?\n" + 
-        "**`c!stats`** - Bot's stats!")
+        "**`c!rainbow`** - huh?!\n" + 
+        "**`c!ping`** - ping me\n" + 
+        "**`c!stats`** - Bot stats")
 
-        .addField(":skull: Bot's owner commands" ,
-        "**`c!eval`** - Tasty code!\n" +
-        "**`c!createInvite`** - Creates invites for servers!")
+        .addField(":robot: Bot's owner commands" ,
+        "**`c!createInvite`** - inv test")
 
-        .addField(":thinking: Suggestions", 
-        "Please suggest more commands for this bot, also you can join the offical discord! https://discord.gg/QYGMzmN")
+        .addField(":thinking: templates", 
+        "ez pz embed")
         message.channel.send({embed});
 
     }
